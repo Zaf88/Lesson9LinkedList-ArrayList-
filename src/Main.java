@@ -10,8 +10,17 @@ public class Main {
         arrayList.add("two");
         arrayList.add("three");
         arrayList.add("four");
+        arrayList.add(1, "seven");
         for (String s : arrayList) {
-            System.out.println(s);
+            System.out.println(arrayList.get(2));
+            System.out.println();
+            for (int i = 0; i < arrayList.size(); i++) {
+                System.out.println(arrayList.get(i));
+                arrayList.set(0, "ten");
+                arrayList.remove(1);
+                System.out.println(arrayList);
+
+            }
             System.out.println();
         }
 
@@ -39,6 +48,7 @@ public class Main {
         linkedList.remove("eight");
         for (String s3 : linkedList) {
             System.out.println(s3);
-        System.out.println();
+            System.out.println();
+        }
     }
-}}
+}
