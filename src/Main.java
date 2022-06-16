@@ -19,7 +19,6 @@ public class Main {
                 arrayList.set(0, "ten");
                 arrayList.remove(1);
                 System.out.println(arrayList);
-
             }
             System.out.println();
         }
@@ -49,6 +48,7 @@ public class Main {
         for (String s3 : linkedList) {
             System.out.println(s3);
             System.out.println();
-        }
-    }
-}
+        }}}
+
+
+
